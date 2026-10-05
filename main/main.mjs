@@ -1,4 +1,4 @@
-import { app, protocol } from "electron";
+import { app, protocol, BrowserWindow } from "electron";
 import { createWindow } from "./modules/inital/createWindow.mjs";
 import { startExpressServer } from "./modules/inital/startExpressServer.mjs";
 import { setupDialogHandler } from "./modules/downloadPage/dialogHandler.mjs";
